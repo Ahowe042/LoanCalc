@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Loan Payment Calc</title>
-
+<link rel="stylesheet" href="styles.css">
 <script type="text/javascript" src="loanCalc.js"></script>
+</head>
 
-<body onload="clearFields()">
-<h1>Loan Repayment</h1>
+<h1>Loan Repayment Calculator</h1>
 
 <button type="button" onclick="runCalc()">Run Calculator</button>
 <button type="button" onclick="clearFields()">Clear Fields</button>
 
-<p>Principle: <input type="text" id="princText" name="principle"></p>
-<p>Interest Rate: <input type="text" id="intstText" name="rate"></p>
-<!--<p>Time: <input type="text" id="timeText" name="time"></p>-->
-<p>Average Monthly Payment: <input type="text" id="mnthPmtText" name="monthlyPayment">
+<p>Principle: $ <input type="text" id="princText" name="principle" value="50000"></p>
+<p>Interest Rate: <input type="text" id="intstText" name="rate" value="4.5"> %</p>
+<p>Average Monthly Payment: $ <input type="text" id="mnthPmtText" name="monthlyPayment" value="250">
 <p id="output"></p>
 
-
-<textarea id="textField" name="textfield" cols="80" rows="100">test</textarea>
+<textarea id="textField" name="textfield" cols="80" rows="50" readonly></textarea>
 </body>
 
 </html>

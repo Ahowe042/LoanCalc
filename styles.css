@@ -1,0 +1,19 @@
+body {
+  background-color: #4f4f4f;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+#textField {
+  margin-bottom: 100px;
+}
+
+input:focus {
+    background-color: yellow;
+}
